@@ -8,8 +8,6 @@ public class BallMovement : MonoBehaviour
 
     float ballSpeed = 10f;
 
-    bool notTilting = true;
-
     // Start is called before the first frame update
     void Start()
     {
