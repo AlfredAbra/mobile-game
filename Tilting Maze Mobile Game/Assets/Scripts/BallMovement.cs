@@ -22,6 +22,21 @@ public class BallMovement : MonoBehaviour
 
         // This adds the velocity to the ball game object and also uses the ballSpeed value as well to move at a certain speed.
         rb.velocity = ballTilt * ballSpeed;
+    }
 
+    void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "Ice")
+        {
+            ballSpeed = 30f;
+        }
+    }
+
+    void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.tag == "Ice")
+        {
+            ballSpeed = 10f;
+        }
     }
 }
