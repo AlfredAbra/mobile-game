@@ -161,3 +161,46 @@ Received Import Request.
   path: Assets/Levels/Level4.unity
   artifactKey: Guid(99402ed93827bdc4ab4d17279a6ec9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Levels/Level4.unity using Guid(99402ed93827bdc4ab4d17279a6ec9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d911824493a64e7dddfb8f40fc5144') in 0.005202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 591.614842 seconds.
+  path: Assets/Levels/Level5.unity
+  artifactKey: Guid(8ea94e9e98c0c394f8d7f8656ae8725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Levels/Level5.unity using Guid(8ea94e9e98c0c394f8d7f8656ae8725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca9b10ffa26790887ad00cf6f22cb6c') in 0.009344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.497648 seconds.
+  path: Assets/Levels/Level4.unity
+  artifactKey: Guid(99402ed93827bdc4ab4d17279a6ec9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Levels/Level4.unity using Guid(99402ed93827bdc4ab4d17279a6ec9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4001a6e9b2efb741465303064a9e8b87') in 0.004065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.363048 seconds.
+  path: Assets/Materials/Ball.mat
+  artifactKey: Guid(54bce9b9a7eda6148ba6045c2dd5fb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Ball.mat using Guid(54bce9b9a7eda6148ba6045c2dd5fb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a147600c36e73af0ddda82f4a1bd830') in 0.083592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Materials/Ice.mat
+  artifactKey: Guid(c132db46f52b1074688e03da75f51e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Ice.mat using Guid(c132db46f52b1074688e03da75f51e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd233064b623fa371d9837bbe35ada271') in 0.020948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Materials/Spikes.mat
+  artifactKey: Guid(fad455295d4b8ae48aadb6dcfffea0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Spikes.mat using Guid(fad455295d4b8ae48aadb6dcfffea0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168145365dd679376f13c525d9713729') in 0.019032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 943.122953 seconds.
+  path: Assets/Levels/Level5.unity
+  artifactKey: Guid(8ea94e9e98c0c394f8d7f8656ae8725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Levels/Level5.unity using Guid(8ea94e9e98c0c394f8d7f8656ae8725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb96f07de771330a8d313d948574846') in 0.004590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.229097 seconds.
+  path: Assets/Levels/Level5.unity
+  artifactKey: Guid(8ea94e9e98c0c394f8d7f8656ae8725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Levels/Level5.unity using Guid(8ea94e9e98c0c394f8d7f8656ae8725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f194d93a7ae04bd9c89abd0c0c4a55a') in 0.004124 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
