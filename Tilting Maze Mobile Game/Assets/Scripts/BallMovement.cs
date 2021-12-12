@@ -22,6 +22,12 @@ public class BallMovement : MonoBehaviour
 
         // This adds the velocity to the ball game object and also uses the ballSpeed value as well to move at a certain speed.
         rb.velocity = ballTilt * ballSpeed;
+
+        // This moves the ball back to original start position if the player falls off the narrow bridge sections.
+        if(transform.position.y < 0)
+        {
+            transform.position = new Vector3(0.418107271f, 1, 0.0181865692f);
+        }
     }
 
     void OnCollisionEnter(Collision collision)
