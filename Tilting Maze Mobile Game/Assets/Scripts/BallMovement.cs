@@ -6,7 +6,9 @@ public class BallMovement : MonoBehaviour
 {
     Rigidbody rb;
 
-    float ballSpeed = 10f;
+    float ballSpeed = 15f;
+
+    public GameObject ball;
 
     // Start is called before the first frame update
     void Start()
@@ -18,15 +20,15 @@ public class BallMovement : MonoBehaviour
     void Update()
     {
         // The acceleration.y variable is used within the z-axis part of the Vector3 variable so it matches the phone's tilt correctly (so if the phone is tilted forward it moves on te z-axis in the game scene).
-        Vector3 ballTilt = new Vector3 (Input.acceleration.x,0f, Input.acceleration.y);
+        Vector3 ballTilt = new Vector3 (Input.acceleration.x, 0f, Input.acceleration.y);
 
         // This adds the velocity to the ball game object and also uses the ballSpeed value as well to move at a certain speed.
         rb.velocity = ballTilt * ballSpeed;
 
         // This moves the ball back to original start position if the player falls off the narrow bridge sections.
-        if(transform.position.y < 0)
+        if(ball.transform.position.y < -0.31f)
         {
-            transform.position = new Vector3(0.418107271f, 1, 0.0181865692f);
+            ball.transform.position = new Vector3(0.418107271f, 1, 0.0181865692f);
         }
     }
 
@@ -34,7 +36,7 @@ public class BallMovement : MonoBehaviour
     {
         if(collision.gameObject.tag == "Ice")
         {
-            ballSpeed = 30f;
+            ballSpeed = 40f;
         }
     }
 
@@ -42,7 +44,7 @@ public class BallMovement : MonoBehaviour
     {
         if (collision.gameObject.tag == "Ice")
         {
-            ballSpeed = 10f;
+            ballSpeed = 15f;
         }
     }
 }
