@@ -11,4 +11,40 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Levels/Level1.unity
+    guid: 9b6bf0e341d33ea4b8daaf41573c06e4
+  - enabled: 1
+    path: Assets/Levels/Level2.unity
+    guid: 1c15212325a81324cbf8ba0834642986
+  - enabled: 1
+    path: Assets/Levels/Level3.unity
+    guid: 428f481c2bddaae43bbc34ccd4867197
+  - enabled: 1
+    path: Assets/Levels/Level4.unity
+    guid: 99402ed93827bdc4ab4d17279a6ec9f7
+  - enabled: 1
+    path: Assets/Levels/Level5.unity
+    guid: 3b2e2bd5dab6ba945952034678393c60
+  - enabled: 1
+    path: Assets/Levels/Level6.unity
+    guid: da0e9ac7e43e66c4ab14fd5968adcbc9
+  - enabled: 1
+    path: Assets/Levels/Level7.unity
+    guid: b53768b493fcdac40934e17f77c3072d
+  - enabled: 1
+    path: Assets/Levels/Level8ICE TUTORIAL.unity
+    guid: e2604bf54f21bbf4baef219d2562941f
+  - enabled: 1
+    path: Assets/Levels/Level9.unity
+    guid: 11c2d1ec06aa2384dae2f34467a457f7
+  - enabled: 1
+    path: Assets/Levels/Level10SPIKE TUTORIAL.unity
+    guid: 61cc82aad3fc1ee43b0f3ee4da765c63
+  - enabled: 1
+    path: Assets/Levels/LevelMenu.unity
+    guid: ccac58f47c90f30468a3ddda5bfe9f4f
+  - enabled: 1
+    path: Assets/Levels/TUTORIAL.unity
+    guid: deb1c4f9222b5494cb4fcf56362848f0
   m_configObjects: {}
