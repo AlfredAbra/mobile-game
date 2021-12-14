@@ -11,14 +11,18 @@ public class BallMovement : MonoBehaviour
 
     public GameObject ball;
 
-    public AudioSource spikeImpactSound;
+    public AudioSource soundEffects;
+
+    public AudioClip spikeImpactSound;
+
+    public AudioClip ballExplosionSound;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
 
-        spikeImpactSound = GetComponent<AudioSource>();
+        soundEffects = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -33,6 +37,8 @@ public class BallMovement : MonoBehaviour
         // This moves the ball back to original start position if the player falls off the narrow bridge sections.
         if(ball.transform.position.y < -0.31f)
         {
+            soundEffects.PlayOneShot(ballExplosionSound, 0.75f);
+
             ball.transform.position = new Vector3(0.418107271f, 1, 0.0181865692f);
         }
     }
@@ -46,9 +52,9 @@ public class BallMovement : MonoBehaviour
 
         if (collision.gameObject.tag == "Spikes")
         {
-            spikeImpactSound.Play();
+            soundEffects.PlayOneShot(spikeImpactSound,0.75f);
 
-            ball.transform.position = new Vector3(0.418107271f, 1, 0.0181865692f);
+            ball.transform.position = new Vector3(0.418107271f, 1f, 0.0181865692f);
         }
 
         if (collision.gameObject.tag == "Exit")

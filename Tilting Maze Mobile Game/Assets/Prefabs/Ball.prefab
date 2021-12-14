@@ -14,10 +14,10 @@ GameObject:
   - component: {fileID: 3085163748393572169}
   - component: {fileID: 3085163748393572181}
   - component: {fileID: 3085163748393572180}
-  - component: {fileID: 4075221523349579259}
+  - component: {fileID: 7309154450567679096}
   m_Layer: 0
   m_Name: Ball
-  m_TagString: Player
+  m_TagString: Ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3085163748393572174}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.44, y: 1.64, z: 2.34}
+  m_LocalPosition: {x: 0.41810727, y: 1, z: 0.01818657}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2640844496900537105}
@@ -129,8 +129,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ball: {fileID: 3085163748393572174}
-  spikeImpactSound: {fileID: 4075221523349579259}
---- !u!82 &4075221523349579259
+  soundEffects: {fileID: 7309154450567679096}
+  spikeImpactSound: {fileID: 8300000, guid: 805eb3a774cabea48a9b323e2b910a4f, type: 3}
+  ballExplosionSound: {fileID: 8300000, guid: 330198cd28f718943b9e25bddbc5819a, type: 3}
+--- !u!82 &7309154450567679096
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,9 +142,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 805eb3a774cabea48a9b323e2b910a4f, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.75
   m_Pitch: 1
   Loop: 0
   Mute: 0
