@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BallMovement : MonoBehaviour
 {
@@ -10,10 +11,14 @@ public class BallMovement : MonoBehaviour
 
     public GameObject ball;
 
+    public AudioSource spikeImpactSound;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+
+        spikeImpactSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -38,6 +43,19 @@ public class BallMovement : MonoBehaviour
         {
             ballSpeed = 40f;
         }
+
+        if (collision.gameObject.tag == "Spikes")
+        {
+            spikeImpactSound.Play();
+
+            ball.transform.position = new Vector3(0.418107271f, 1, 0.0181865692f);
+        }
+
+        if (collision.gameObject.tag == "Exit")
+        {
+            SceneManager.LoadScene("LevelCompletionScreen");
+        }
+
     }
 
     void OnCollisionExit(Collision collision)
@@ -46,5 +64,6 @@ public class BallMovement : MonoBehaviour
         {
             ballSpeed = 15f;
         }
+
     }
 }

@@ -8,9 +8,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MenuScene.unity
     guid: 641263e5049278c46894fc36c17bc238
+  - enabled: 1
+    path: Assets/Levels/LevelMenu.unity
+    guid: ccac58f47c90f30468a3ddda5bfe9f4f
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Levels/TUTORIAL.unity
+    guid: deb1c4f9222b5494cb4fcf56362848f0
+  - enabled: 1
+    path: Assets/Levels/Level8ICE TUTORIAL.unity
+    guid: e2604bf54f21bbf4baef219d2562941f
+  - enabled: 1
+    path: Assets/Levels/Level10SPIKE TUTORIAL.unity
+    guid: 61cc82aad3fc1ee43b0f3ee4da765c63
   - enabled: 1
     path: Assets/Levels/Level1.unity
     guid: 9b6bf0e341d33ea4b8daaf41573c06e4
@@ -33,18 +45,9 @@ EditorBuildSettings:
     path: Assets/Levels/Level7.unity
     guid: b53768b493fcdac40934e17f77c3072d
   - enabled: 1
-    path: Assets/Levels/Level8ICE TUTORIAL.unity
-    guid: e2604bf54f21bbf4baef219d2562941f
-  - enabled: 1
     path: Assets/Levels/Level9.unity
     guid: 11c2d1ec06aa2384dae2f34467a457f7
   - enabled: 1
-    path: Assets/Levels/Level10SPIKE TUTORIAL.unity
-    guid: 61cc82aad3fc1ee43b0f3ee4da765c63
-  - enabled: 1
-    path: Assets/Levels/LevelMenu.unity
-    guid: ccac58f47c90f30468a3ddda5bfe9f4f
-  - enabled: 1
-    path: Assets/Levels/TUTORIAL.unity
-    guid: deb1c4f9222b5494cb4fcf56362848f0
+    path: Assets/Levels/LevelCompletionScreen.unity
+    guid: cd41eaa502b65c84f9fd078b57f6079f
   m_configObjects: {}
